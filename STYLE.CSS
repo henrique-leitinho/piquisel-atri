@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+    background-color: rgb(248, 245, 245);
+    color: rgb(199, 17, 17);
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+}
+button {
+    background-color: gold;
+    color: coral;
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(112, 95, 0);
+    color: rgb(158, 78, 49);
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+}
+input {
+    background-color: deeppink;
+}
+
+
+
+
+
+
+
+.pixel {
+    height: 40px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid darkslategrey;
+
+}
+
+
+
+
+
+
+
+
+
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(10,30px);
+    justify-content: center;
+
+
+}
